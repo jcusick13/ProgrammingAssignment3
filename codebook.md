@@ -41,3 +41,6 @@ These signals were used to estimate variables of the feature vector for each pat
 The set of variables that were estimated from these signals are: 
 - mean(): Mean value
 - std(): Standard deviation
+
+For a more detailed description about the above variables, the collection process, and original 
+project motiviation, visit http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
