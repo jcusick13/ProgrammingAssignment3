@@ -52,4 +52,5 @@ names(dat) <- dat.names
 # for each activity and subject
 # -----------------------------
 summary <- dat %>% group_by(Subject, Activity) %>% summarize_each(funs(mean))
+write.table(summary, "./summary_data.txt", row.names = FALSE)
 
